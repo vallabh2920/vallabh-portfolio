@@ -29,7 +29,7 @@ const Education = () => {
       ];
     return (
         <div>
-            <h2 className="m-8 text-fourth font-extrabold text-3xl tracking-wider">Education
+            <h2 className="m-8 text-fourth font-extrabold text-4xl tracking-wider">Education
             </h2>
             {educationData.map((item) => {
         return (

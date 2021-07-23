@@ -25,7 +25,7 @@ const About = () => {
                     </ul>
                 </div>
             </div>
-            <h2 className="m-8 text-fourth font-extrabold text-3xl tracking-wider">MY GOALS</h2>
+            <h2 className="m-8 text-fourth font-extrabold text-4xl tracking-wider">MY GOALS</h2>
             <div className="flex justify-evenly items-center">
                 <div className="m-6 p-11 max-w-lg flex justify-center items-center bg-first rounded-xl">
                 <ul className="list-disc ml-4 space-y-4 text-2xl">
