@@ -4,7 +4,7 @@ import Header from "../components/header/Header";
 
 const BaseLayout = ({ children }) => {
   return (
-    <div className="bg-fifth h-screen overflow-y-scroll">
+    <div className="bg-fifth h-screen overflow-y-scroll ">
       <Header/>
       {children}
       <Footer/>

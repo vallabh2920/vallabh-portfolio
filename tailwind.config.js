@@ -19,6 +19,7 @@ module.exports = {
     extend: {
       width: {
         img: "320px",
+        photo:"480px",
         card: "600px",
       },
     },
@@ -26,5 +27,7 @@ module.exports = {
   variants: {
     extend: {},
   },
-  plugins: [],
+  plugins: [
+    require("@tailwindcss/forms"),
+  ],
 }
