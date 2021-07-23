@@ -1,5 +1,5 @@
 import React from 'react'
-import BasePage from '../../layout/BasePage'
+import BasePage from '../../Layout/BasePage'
 
 const Footer = () => {
     return (
