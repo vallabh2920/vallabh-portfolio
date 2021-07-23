@@ -1,10 +1,22 @@
 import React from "react";
+import About from "../components/about/About";
+import Hero from "../components/heroSection/Hero";
+import Projects from "../components/projects/Projects";
+import Skills from "../components/skills/Skills";
+import BaseLayout from "../layout/BaseLayout";
+import BasePage from "../layout/BasePage";
 
 const index = () => {
-  return (<div className="bg-yellow-500 w-screen h-screen flex justify-center items-center" >
-    <h1 className="text-white font-extrabold text-6xl animate-bounce">Coming Soon </h1>
-    </div>
- );
+  return (
+    <BaseLayout>
+      <BasePage>
+      <Hero />
+      <About />
+      <Skills/>
+      <Projects/>
+      </BasePage>
+    </BaseLayout>
+  );
 };
 
 export default index;
