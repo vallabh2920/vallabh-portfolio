@@ -37,7 +37,7 @@ module.exports = {
       width: {
         img: "320px",
         photo:"480px",
-        card: "600px",
+        card: "710px",
       },
     },
   },
