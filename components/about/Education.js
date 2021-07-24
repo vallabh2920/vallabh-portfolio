@@ -28,14 +28,14 @@ const Education = () => {
         },
       ];
     return (
-        <div>
+        <div >
             <h2 className="m-8 text-fourth font-extrabold text-4xl tracking-wider">Education
             </h2>
             {educationData.map((item) => {
         return (
-          <div className="bg-first p-11 flex items-center w-full  my-3  rounded-xl" key={item.id}>
+          <div className="bg-first p-11 flex items-center flex-wrap w-full  my-3  rounded-xl md:justify-center md:text-center md:m-auto md:my-6 md:w-4/5" key={item.id}>
             
-              <img src="./img/calendar.svg" alt="" className=" mr-52 ml-10 "/>
+              <img src="./img/calendar.svg" alt="" className=" mr-52 ml-10 md:m-0"/>
               
             
             <div className=" w-card mx-6">

@@ -38,3 +38,14 @@
 .viewButton-0-2-6 {
   width: 74px !important;
 }
+html {
+  --scrollbarBG: transparent;
+  --thumbBG: transparent;
+  font-size: 100%;
+}
+
+@media only screen and (max-width: 500px) {
+  html {
+    font-size: 60.5%;
+  }
+}
