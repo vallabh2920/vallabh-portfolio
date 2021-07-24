@@ -23,16 +23,16 @@ const Contact = () => {
     }
   };
   return (
-    <div id="contact">
+    <div id="contact" className=" ">
       <h2 className="m-8 text-fourth font-extrabold text-4xl tracking-wider ">
         CONTACT ME :)
       </h2>
-      <div className="flex justify-evenly mb-24 flex-wrap md:space-y-6">
-        <div className="md:w-img">
-          <img src="/img/contact.svg" className="px-11  w-photo"></img>
+      <div className="flex flex-row flex-wrap items-center justify-evenly mb-10 md:space-y-6">
+        <div className="md:w-img ">
+          <img src="/img/contact-1.svg" className="px-16 rounded-2xl w-card"></img>
         </div>
-        <form onSubmit={(e) => e.preventDefault()}
- className="bg-first flex justify-start flex-col p-10 space-y-2 w-96 rounded-xl">
+        <form onSubmit={(e) => e.preventDefault()} 
+        className="bg-first flex justify-start flex-col p-10 space-y-2 w-96 border border-fourth rounded-xl">
         <p className="text-fourth animate-pulse text-center">
             {emailresponse}
           </p>
@@ -47,7 +47,7 @@ const Contact = () => {
             onChange={(e) =>
               setContact({ ...contact, message: e.target.value })
             }/>
-          <input type="submit" onClick={form} className=" rounded-md h-10 border-2 cursor-pointer border-fourth bg-third text-white" ></input>
+          <input type="submit" onClick={form} className=" hover:bg-first hover:text-fourth rounded-md h-10 border-2 cursor-pointer border-fourth bg-third text-white" ></input>
         </form>
       </div>
     </div>
