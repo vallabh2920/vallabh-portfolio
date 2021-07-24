@@ -1,5 +1,5 @@
 import React, { useState } from "react";
-import BasePage from "../../layout/BasePage";
+import BasePage from "../../Layout/BasePage";
 
 const Header = () => {
   const [nav, setNav] = useState(false);
