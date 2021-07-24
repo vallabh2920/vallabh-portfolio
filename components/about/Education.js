@@ -33,7 +33,7 @@ const Education = () => {
             </h2>
             {educationData.map((item) => {
         return (
-          <div className="bg-first p-11 flex items-center flex-wrap w-full  my-3  rounded-xl md:justify-center md:text-center md:m-auto md:my-6 md:w-4/5" key={item.id}>
+          <div className="bg-first p-11 flex items-center flex-wrap w-full  my-3 mt-10 rounded-xl md:justify-center md:text-center md:m-auto md:my-6 md:w-4/5" key={item.id}>
             
               <img src="./img/calendar.svg" alt="" className=" mr-52 ml-10 md:m-0"/>
               
