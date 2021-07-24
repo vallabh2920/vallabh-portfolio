@@ -46,9 +46,9 @@ const Skills = () => {
         },
       ];
     return (
-        <div className="my-14">
+        <div id="skills" className="my-14">
       <h2 className="m-8 text-fourth font-extrabold text-4xl tracking-wider">Skills</h2>
-      <div className="bg-first flex justify-around flex-wrap p-11 my-10 rounded-xl">
+      <div className="bg-first flex justify-around flex-wrap p-11 my-10 rounded-xl md:p-6 mx-6">
         {skills.map((item) => {
           return (
             <div className="w-80 m-4 px-5 flex items-center " key={item.id}>

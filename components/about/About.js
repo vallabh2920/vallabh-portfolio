@@ -5,9 +5,9 @@ import Education from './Education'
 const About = () => {
     return (
         
-        <div className=" ">
+        <div id="about" className=" ">
             <h2 className="m-6 text-fourth font-extrabold text-4xl tracking-wider">ABOUT ME</h2>
-            <div className="m-6 p-11 flex justify-center items-center space-x-10 bg-first rounded-xl">
+            <div className="m-6 p-11 flex justify-center flex-wrap items-center space-x-10 bg-first rounded-xl">
                 <div className="p-11">
                     <img src="/img/vallabh.svg" className="m-6 rounded-full w-img" />
                 </div>
@@ -26,7 +26,7 @@ const About = () => {
                 </div>
             </div>
             <h2 className="m-8 text-fourth font-extrabold text-4xl tracking-wider">MY GOALS</h2>
-            <div className="flex justify-evenly items-center">
+            <div className="flex justify-evenly items-center flex-wrap">
                 <div className="m-6 p-11 max-w-lg flex justify-center items-center bg-first rounded-xl">
                 <ul className="list-disc ml-4 space-y-4 text-2xl">
               <li>Develop myself with the opportunities provided.</li>
