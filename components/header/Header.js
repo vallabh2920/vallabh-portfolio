@@ -31,7 +31,7 @@ const Header = () => {
       <BasePage className="py-6  fixed top-0 left-0 bg-fifth w-full z-30 ">
         <div className="flex justify-between items-center z-10">
           <div className="">
-            <a href="#heroSection" className="font-extrabold text-fourth text-3xl tracking-wide hover:underline">
+            <a href="#heroSection" className="font-extrabold text-fourth text-3xl tracking-wide hover:underline md:text-xl md:ml-3">
               VALLABH INGLE
             </a>
           </div>
