@@ -62,7 +62,7 @@ const Projects = () => {
                 <a  href="https://foodies-b9b87.web.app/" alt="" target="_blank" rel="noreferrer noopener"><img src="/img/foodies.svg"/></a>
                 <h3 className="m-6 text-2xl text-fourth " >Foodies</h3>
                 <p className=" text-2xl text-fourth">Designed and Developed the Website about food and calories.</p><br></br>
-                <p className=" text-2xl font-semibold text-fourth">Features implemented:- </p>
+                <p className=" text-2xl font-semibold text-third">Features implemented:- </p>
                 <ul className="list-disc ml-4 mt-4 space-y-4 text-2xl text-fourth">
                     <li>
                     Implemented adaptive way to make responsive website with different view
