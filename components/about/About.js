@@ -20,7 +20,7 @@ const About = () => {
                             I am vallabh Ingle,I am Engineering student. Creative. I use a creative approach to problem solve.
                         </li>
                         <li >
-                            I'm passionate about creating fluid digital experiences and I want to use technology to help make people's lives more fulfilling. You can find me on <a href="https://www.linkedin.com/in/vallabh-ingle-a9a0b7206/" target="_blank" className="hover:underline">Linkedin</a> and <a href="https://github.com/vallabh2920" className="hover:underline" target="_blank">Github</a>, download my <a href="https://drive.google.com/drive/u/0/folders/153ubPpeyQZHPhPRGP1Yl9FPm-G2qN87K" className="hover:underline" target="_blank">resume</a>, or shoot me an <a href="mailto:vallabhingle2920@gmail.com ?subject=subject&cc=vallabhingle2920@gmail.com" className="hover:underline" >email</a>
+                            I'm passionate about creating fluid digital experiences and I want to use technology to help make people's lives more fulfilling. You can find me on <a href="https://www.linkedin.com/in/vallabh-ingle-a9a0b7206/" target="_blank" className="hover:underline">Linkedin</a> and <a href="https://github.com/vallabh2920" className="hover:underline" target="_blank">Github</a>, download my <a href="https://drive.google.com/file/d/1WE9sMm828Ce_pcqj6Xi4BF5A4BAbrcOu/view?usp=sharing" className="hover:underline" target="_blank">resume</a>, or shoot me an <a href="mailto:vallabhingle2920@gmail.com ?subject=subject&cc=vallabhingle2920@gmail.com" className="hover:underline" >email</a>
                         </li>
                     </ul>
                 </div>

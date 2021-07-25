@@ -40,7 +40,7 @@ const Education = () => {
             
             <div className=" w-card mx-6">
             <p className=" text-fourth font-normal" > {item.year}</p>
-            <h2 className="text-2xl text-fourth font-bold "> {item.college} </h2>
+            <h2 className="text-2xl text-third font-bold "> {item.college} </h2>
             <h3 className=" text-fourth font-semibold text-lg "> {item.university} </h3>
             <h3 className=" text-fourth font-medium text-lg ">{item.degree} </h3>
             <p className=" text-fourth font-medium text-lg"> {item.grade}</p>

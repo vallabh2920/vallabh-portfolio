@@ -47,7 +47,7 @@ const Contact = () => {
             onChange={(e) =>
               setContact({ ...contact, message: e.target.value })
             }/>
-          <input type="submit" onClick={form} className=" hover:bg-first hover:text-fourth rounded-md h-10 border-2 cursor-pointer border-fourth bg-third text-white" ></input>
+          <input type="submit" onClick={form} className=" hover:bg-third hover:text-white rounded-md h-10 border-2 cursor-pointer border-fourth bg-second text-fourth font-medium" ></input>
         </form>
       </div>
     </div>
