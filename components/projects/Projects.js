@@ -58,10 +58,11 @@ const Projects = () => {
             <h2 className="m-8 text-fourth font-extrabold text-4xl tracking-wider">PROJECTS</h2>
             <div className="ml-24 mr-24 mt-10 mb-14 p-11 flex justify-center items-center flex-col  bg-first rounded-xl md:mx-7">
 
-                <img src="/img/foodies.svg"/>
-                <a className="m-6 text-2xl text-fourth underline " href="https://foodies-b9b87.web.app/" alt="" target="_blank" rel="noreferrer noopener">Foodies</a>
+                
+                <a  href="https://foodies-b9b87.web.app/" alt="" target="_blank" rel="noreferrer noopener"><img src="/img/foodies.svg"/></a>
+                <h3 className="m-6 text-2xl text-fourth " >Foodies</h3>
                 <p className=" text-2xl text-fourth">Designed and Developed the Website about food and calories.</p><br></br>
-                <p className=" text-2xl text-fourth">Features implemented:- </p>
+                <p className=" text-2xl font-semibold text-fourth">Features implemented:- </p>
                 <ul className="list-disc ml-4 mt-4 space-y-4 text-2xl text-fourth">
                     <li>
                     Implemented adaptive way to make responsive website with different view
