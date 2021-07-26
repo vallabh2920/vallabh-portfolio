@@ -24,8 +24,8 @@ const Contact = () => {
   };
   return (
     <div id="contact" className=" ">
-      <h2 className="m-8 text-fourth font-extrabold text-4xl tracking-wider ">
-        CONTACT ME :)
+      <h2 className="m-8 text-fourth font-extrabold text-4xl tracking-wider text-center">
+        CONTACT ME!
       </h2>
       <div className="flex flex-row flex-wrap items-center justify-evenly mb-10 md:space-y-6">
         <div className="md:w-img ">
@@ -47,7 +47,7 @@ const Contact = () => {
             onChange={(e) =>
               setContact({ ...contact, message: e.target.value })
             }/>
-          <input type="submit" onClick={form} className=" hover:bg-third hover:text-white rounded-md h-10 border-2 cursor-pointer border-fourth bg-second text-fourth font-medium" ></input>
+          <input type="submit" onClick={form} className=" rounded-md h-10 border-2 cursor-pointer border-fourth bg-third text-white font-medium" ></input>
         </form>
       </div>
     </div>

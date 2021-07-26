@@ -32,7 +32,7 @@ const Header = () => {
         <div className="flex justify-between items-center z-10">
           <div className="">
             <a href="#heroSection" className="font-extrabold text-fourth text-3xl tracking-wide hover:underline md:text-xl md:ml-3">
-              VALLABH INGLE
+              Vallabh Ingle
             </a>
           </div>
           <div className="flex space-x-10 md:hidden">

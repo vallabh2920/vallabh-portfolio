@@ -55,7 +55,7 @@ const Projects = () => {
     //   ];
     return (
         <div id="projects">
-            <h2 className="m-8 text-fourth font-extrabold text-4xl tracking-wider">PROJECTS</h2>
+            <h2 className="m-8 text-fourth font-extrabold text-4xl tracking-wider text-center">PROJECTS</h2>
             <div className="ml-24 mr-24 mt-10 mb-14 p-11 flex justify-center items-center flex-col  bg-first rounded-xl md:mx-7">
 
                 
