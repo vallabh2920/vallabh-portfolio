@@ -41,7 +41,7 @@ const Header = () => {
                 <div key={item.id}>
                   <a
                     href={item.link}
-                    className="text-xl text-fourth font-medium hover:underline" 
+                    className="text-xl text-fourth font-medium hover:underline " 
                   >
                     {item.name}
                   </a>
