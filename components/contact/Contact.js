@@ -29,7 +29,7 @@ const Contact = () => {
       </h2>
       <div className="flex flex-row flex-wrap items-center justify-evenly mb-10 md:space-y-6">
         <div className="md:w-img ">
-          <img src="/img/contact-1.svg" className="px-16 rounded-2xl w-card"></img>
+          <img src="/img/contact-1.svg" className="px-16 pb-6 rounded-2xl w-card"></img>
         </div>
         <form onSubmit={(e) => e.preventDefault()} 
         className="bg-first flex justify-start flex-col p-10 space-y-2 w-96 border border-fourth rounded-xl">
