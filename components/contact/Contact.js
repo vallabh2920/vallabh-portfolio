@@ -41,11 +41,11 @@ const Contact = () => {
           <label className="text-fourth" htmlFor="email">
             Email:
           </label>
-          <input type="email" placeholder="Email" required />
+          <input type="email" name="email" placeholder="Email" required />
           <label className="text-fourth" htmlFor="message">
             Message:
           </label>
-          <textarea placeholder="Message" className="  h-32 " />
+          <textarea placeholder="Message" name="message" className="  h-32 " />
           <input
             type="submit"
             className=" rounded-md h-10 border-2 cursor-pointer border-fourth bg-third text-white font-medium"
