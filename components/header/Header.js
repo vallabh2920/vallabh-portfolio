@@ -1,5 +1,6 @@
 import React, { useState } from "react";
 import BasePage from "../../Layout/BasePage";
+import { motion } from "framer-motion";
 
 const Header = () => {
   const [nav, setNav] = useState(false);
@@ -31,7 +32,10 @@ const Header = () => {
       <BasePage className="py-6  fixed top-0 left-0 bg-fifth w-full z-30 ">
         <div className="flex justify-between items-center z-10">
           <div className="">
-            <a href="#heroSection" className="font-extrabold text-fourth text-3xl tracking-wide hover:underline md:text-xl md:ml-3">
+            <a
+              href="#heroSection"
+              className="font-extrabold text-fourth text-3xl tracking-wide hover:underline md:text-xl md:ml-3"
+            >
               Vallabh Ingle
             </a>
           </div>
@@ -41,7 +45,7 @@ const Header = () => {
                 <div key={item.id}>
                   <a
                     href={item.link}
-                    className="text-xl text-fourth font-medium hover:underline " 
+                    className="text-xl text-fourth font-medium hover:underline "
                   >
                     {item.name}
                   </a>
@@ -94,7 +98,8 @@ const Header = () => {
               >
                 <a
                   href={item.link}
-                  className="text-xl text-fourth font-medium underline"
+                  className="text-xl text-fourth font-medium hover:underline"
+                  onClick={() => setNav(false)}
                 >
                   {item.name}
                 </a>
