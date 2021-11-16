@@ -19,21 +19,21 @@ const About = () => {
           <ul className="space-y-4 text-2xl text-fourth">
             <li className="text-2xl font-medium">NICE TO MEET YOU!</li>
             <li>
-              I am vallabh Ingle, An Engineering student. I use a creative
+              I am Vallabh Ingle, an Engineering student. I use a creative
               approach to solve problem .
             </li>
             <li>
-              I'm passionate about creating fluid digital experiences and I want
-              to use technology to help make people's lives more fulfilling. You
-              can find me on{" "}
+              I am passionate about creating fluid digital experiences and I
+              want to use technology to help make people's lives more
+              fulfilling. You can find me on 
               <a
                 href="https://www.linkedin.com/in/vallabh-ingle-a9a0b7206/"
                 target="_blank"
                 className="underline hover:bg-fourth hover:text-white text-third"
               >
                 Linkedin
-              </a>{" "}
-              and{" "}
+              </a>
+              and
               <a
                 href="https://github.com/vallabh2920"
                 className="underline hover:bg-fourth hover:text-white htext-third text-third"
@@ -41,7 +41,7 @@ const About = () => {
               >
                 Github
               </a>
-              , download my{" "}
+              , download my
               <a
                 href="https://drive.google.com/file/d/1WE9sMm828Ce_pcqj6Xi4BF5A4BAbrcOu/view?usp=sharing"
                 className="underline hover:bg-fourth hover:text-white htext-third text-third"
@@ -72,7 +72,10 @@ const About = () => {
               skills and where there is an environment of new learning for my
               technical, personal and professional growth.
             </li>
-            <li>Also in a challenging environment.</li>
+            <li>
+              Also I have a challenging approach and would like to work in such
+              an environment.
+            </li>
             <li>To do things which will make me proud.</li>
           </ul>
         </div>
