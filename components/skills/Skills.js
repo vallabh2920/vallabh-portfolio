@@ -54,7 +54,7 @@ const Skills = () => {
       <div className="bg-first flex justify-around flex-wrap p-11 my-10 rounded-xl md:p-6 mx-6">
         {skills.map((item) => {
           return (
-            <div className="w-80 m-4 px-5 flex items-center " key={item.id}>
+            <div className="w-80 m-4 px-5 flex items-center "   >
               <div className="">
                 <img className="w-20 h-20" src={item.image} alt={item.name} />
               </div>
