@@ -25,7 +25,7 @@ const About = () => {
             <li>
               I am passionate about creating fluid digital experiences and I
               want to use technology to help make people's lives more
-              fulfilling. You can find me on 
+              fulfilling. You can find me on&nbsp;
               <a
                 href="https://www.linkedin.com/in/vallabh-ingle-a9a0b7206/"
                 target="_blank"
@@ -33,7 +33,7 @@ const About = () => {
               >
                 Linkedin
               </a>
-              and
+              &nbsp;and&nbsp;
               <a
                 href="https://github.com/vallabh2920"
                 className="underline hover:bg-fourth hover:text-white htext-third text-third"
@@ -41,7 +41,7 @@ const About = () => {
               >
                 Github
               </a>
-              , download my
+              , download my&nbsp;
               <a
                 href="https://drive.google.com/file/d/1WE9sMm828Ce_pcqj6Xi4BF5A4BAbrcOu/view?usp=sharing"
                 className="underline hover:bg-fourth hover:text-white htext-third text-third"
@@ -56,6 +56,7 @@ const About = () => {
               >
                 email
               </a>
+              .
             </li>
           </ul>
         </div>
